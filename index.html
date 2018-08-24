@@ -34,13 +34,13 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navLinks">
-                            <a href="index.html">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li class="navLinks">
-                            <a href="portfolio.html">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li class="navLinks">
-                            <a href="contact.html">Contact</a>
+                            <a href="#connect">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -48,43 +48,112 @@
             </div>
 
         </nav>
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/images/banner.jpg" alt="travel advisor screenshot" class="projectPic">
+            </div>
+        </div>
+
+        <hr>
+
         <div class="row">
             <div class="col-md-12">
 
 
                 <!-- <img src="assets/images/lewisLinkedinPP.jpg" class="profilePic" alt="Your Name"> -->
-                <h3>About Me</h3>
+                <h2>
+                    <div id="about">About Me</div>
+                </h2>
 
-                <p>I graduated Boston University majoring in finance. I worked as a product manager for a financial technology
-                    firm for 2 years. My responsibilities included helping launch a peer-to-peer lending website,
-                    leading user acceptance testing and improving on exising features.
+                <p>I graduated Boston University in finance. I have experience as a product manager for a financial technology
+                    firm for 2 years launching a brand new product, a peer-to-peer lending platform. During my work as a
+                    product manager I realized my passion towards programming, and I have since completed a full stack web
+                    development program at University of California Irvine to pursue a career as a developer.
                 </p>
 
-                <p> During my work as a product manager I realized my passion towards programming, and I have since completed a full stack web
-                    development program at University of California Irvine to pursue a career as a developer. </p>
+                <p>
+                    I hope to be able to synergize my knowledge of finance and technology to increase financial inclusion&mdash;by building accessible
+                    services and decreasing information asymmetry across the globe.
+                </p>
 
                 <p>My skills include: AWS, HTML, Handlebars, CSS, Bootstrap, JavaScript, jQuery, React, NodeJS, ExpressJS, mySQL,
                     MongoDB, Nightmare, Mocha, RESTful APIs, Git, Adobe Illustrator and Photoshop.</p>
             </div>
-
-
-
-
         </div>
 
-        <div class="footer">
-            <h3>Connect with Me</h3>
+        <hr>
 
-            <a href="https://github.com/fongl">
-                <img src="assets/images/github-128.png" class="social" alt="GitHub" />
-            </a>
-            <a href="https://www.linkedin.com/in/lewis-fong-44558b94/">
-                <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" />
-            </a>
-            <a href="http://stackoverflow.com">
-                <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" />
-            </a>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>
+                    <div id="portfolio">My Works</div>
+                </h2>
+                <div>
+                    <h3>
+                        <a class="portfolio-link inline-link" href="https://traveladvisory.github.io/Travel-Advisor/">Travel Advisor</a> -
+                        <a href="https://github.com/TravelAdvisory/Travel-Advisor">github</a>
+                    </h3>
+                    <p>Travel Advisor is a website that utilizes several APIs to provide user with safety and other relevant
+                        information of a desired travel destination.
+                    </p>
+                    <img src="assets/images/traveladvisorscreenshot.PNG" alt="travel advisor screenshot" class="projectPic">
+                </div>
+                <div>
+                    <h3>
+                        <a class="portfolio-link inline-link" href="https://gourd-chan.herokuapp.com/b/gourdlife">GourdChan</a> -
+                        <a href="https://github.com/Creme-brule/GourdChan">github</a>
+                    </h3>
+                    <p>GourdChan is an imageboard that is open for anyone to browse, but requires a registered account to post
+                        in order to encourage civilized conversations. It is built with react.js and utilizes Amazon web
+                        services for image upload and retriveal. The project is named after our assigned team theme gourd
+                        fruits.
+                    </p>
+                    <img src="assets/images/gourdchanscreenshot.PNG" alt="gourdchan homepage screenshot" class="projectPic">
+                </div>
+                <div>
+                    <h3>
+                        <a class="portfolio-link inline-link" href="https://battleship-brulee.herokuapp.com/signin">Battleship</a> -
+                        <a href="https://github.com/Creme-brule/BattleShips">github</a>
+                    </h3>
+                    <p>Battleship is a multiplayer game powered by javascript and mysql, users are authenticated through passport
+                        and bcrypt. It requires two registered players to play against one another. Each turn a player can
+                        guess where the opponent is and attack, while deciding whether to move to an adjacent block.
+                    </p>
+                    <img src="assets/images/battleshipscreenshot.PNG" alt="battleship screenshot" class="projectPic">
+                </div>
+
+            </div>
         </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">
+                    <div id="connect">Connect with Me</div>
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center socials">
+                    <a href="https://github.com/fongl">
+                        <img src="assets/images/github-128.png" class="social" alt="GitHub" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/lewis-fong-44558b94/">
+                        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" />
+                    </a>
+                    <a href="http://stackoverflow.com">
+                        <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <p class="text-center text-muted">© Lewis Fong 2018 </p>
+        </footer>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
